@@ -22,6 +22,15 @@ To calculate down columns:
 ```
 ./stats -cols test_file
 ```
+
+##Colophon:
+
+This script requires bash (obviously). It also requires tr and awk. These
+should be available by default on most installations of Linux. It has not
+been established whether or not gawk is required (instead of plain awk or
+nawk) but it is assumed that any awk will work. YMMV.
+
+
 ##Disclaimer:
 
 This is code from a school project. It satisfies assignment requirements
